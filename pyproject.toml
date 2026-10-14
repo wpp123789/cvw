@@ -9,7 +9,7 @@ license = { text = "Apache-2.0" }
 dependencies = [
   "adjustText>=1.2",
   "lief>=0.14.1",
-  "Markdown>=3.6",
+  "Markdown==3.8.1",
   "matplotlib>=3.9.0",
   "pre-commit>=4.0.0",
   "scikit-learn>=1.5.0",

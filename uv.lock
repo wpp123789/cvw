@@ -702,7 +702,7 @@ dependencies = [
 requires-dist = [
     { name = "adjusttext", specifier = ">=1.2" },
     { name = "lief", specifier = ">=0.14.1" },
-    { name = "markdown", specifier = ">=3.6" },
+    { name = "markdown", specifier = "==3.8.1" },
     { name = "matplotlib", specifier = ">=3.9.0" },
     { name = "pre-commit", specifier = ">=4.0.0" },
     { name = "riscof", git = "https://github.com/riscv/riscof.git?rev=be84132874963e001c14d846a140a3edd9c9d48f" },
@@ -1667,7 +1667,7 @@ wheels = [
 
 [[package]]
 name = "markdown"
-version = "3.9"
+version = "3.8.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version < '3.10'",
@@ -1675,23 +1675,23 @@ resolution-markers = [
 dependencies = [
     { name = "importlib-metadata", version = "8.7.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8d/37/02347f6d6d8279247a5837082ebc26fc0d5aaeaf75aa013fcbb433c777ab/markdown-3.9.tar.gz", hash = "sha256:d2900fe1782bd33bdbbd56859defef70c2e78fc46668f8eb9df3128138f2cb6a", size = 364585, upload-time = "2025-09-04T20:25:22.885Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/6b/96188a9b2d9d0799d5f9c82c777f890c1a859b5d2a6e705e0a6e80346453/markdown-3.8.1.tar.gz", hash = "sha256:a2e2f01cead4828ee74ecca9623045f62216aef2212a7685d6eb9163f590b8c1", size = 361984, upload-time = "2025-09-23T18:46:07.154Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/ae/44c4a6a4cbb496d93c6257954260fe3a6e91b7bed2240e5dad2a717f5111/markdown-3.9-py3-none-any.whl", hash = "sha256:9f4d91ed810864ea88a6f32c07ba8bee1346c0cc1f6b1f9f6c822f2a9667d280", size = 107441, upload-time = "2025-09-04T20:25:21.784Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/53/3e52c1e345249796b9563541639d07c4c9350e5a6a6f4e3f1e2e1d3e7e1e/markdown-3.8.1-py3-none-any.whl", hash = "sha256:46cc0c0f1e5211ab2e9d453582f0b28a1bfaf058a9f7d5c50386b99b588d8811", size = 106555, upload-time = "2025-09-23T18:46:06.123Z" },
 ]
 
 [[package]]
 name = "markdown"
-version = "3.10.2"
+version = "3.8.1"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.12'",
     "python_full_version == '3.11.*'",
     "python_full_version == '3.10.*'",
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2b/f4/69fa6ed85ae003c2378ffa8f6d2e3234662abd02c10d216c0ba96081a238/markdown-3.10.2.tar.gz", hash = "sha256:994d51325d25ad8aa7ce4ebaec003febcce822c3f8c911e3b17c52f7f589f950", size = 368805, upload-time = "2026-02-09T14:57:26.942Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/6b/96188a9b2d9d0799d5f9c82c777f890c1a859b5d2a6e705e0a6e80346453/markdown-3.8.1.tar.gz", hash = "sha256:a2e2f01cead4828ee74ecca9623045f62216aef2212a7685d6eb9163f590b8c1", size = 361984, upload-time = "2025-09-23T18:46:07.154Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/de/1f/77fa3081e4f66ca3576c896ae5d31c3002ac6607f9747d2e3aa49227e464/markdown-3.10.2-py3-none-any.whl", hash = "sha256:e91464b71ae3ee7afd3017d9f358ef0baf158fd9a298db92f1d4761133824c36", size = 108180, upload-time = "2026-02-09T14:57:25.787Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/53/3e52c1e345249796b9563541639d07c4c9350e5a6a6f4e3f1e2e1d3e7e1e/markdown-3.8.1-py3-none-any.whl", hash = "sha256:46cc0c0f1e5211ab2e9d453582f0b28a1bfaf058a9f7d5c50386b99b588d8811", size = 106555, upload-time = "2025-09-23T18:46:06.123Z" },
 ]
 
 [[package]]
